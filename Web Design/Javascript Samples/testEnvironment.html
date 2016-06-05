@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Javascript Test Environment</title>
+    <script src='testEnvironmentFunctions.js'></script>
+    <link type='text/css' rel='stylesheet' href='testEnvironmentStyles.css'/>
+  </head>
+
+  <body>
+    <button id='test'  onclick='demonstrate()'>Test stuff!</button>
+    <button id='clear' onclick='clearDiv1()'>Clear</button>
+    <div id='1'>
+    </div>
+    <div id='2'>
+    </div>
+    <div id='3'>
+    </div>
+    <div id='4'>
+    </div>
+    <script type='text/javascript'>
+      var count = 1;
+
+      function clearDiv1(){
+        document.getElementById(1).innerHTML = '';
+        document.getElementById('test').disabled = false;
+        count = 1
+      }
+      document.getElementById(1).innerHTML += 'Div 1';
+      document.getElementById(2).innerHTML += 'Div 2';
+      document.getElementById(3).innerHTML += 'Div 3';
+      document.getElementById(4).innerHTML += 'Div 4';
+    </script>
+  </body>
+</html>
