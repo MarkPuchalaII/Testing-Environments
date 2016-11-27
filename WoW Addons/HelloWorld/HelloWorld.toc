@@ -1,4 +1,5 @@
 ## Interface: 70100
 ## Title: Hello, World!
 ## Notes: My First "Hello, World!" test
+## SavedVariables: HelloWorld_Text
 HelloWorld.lua
