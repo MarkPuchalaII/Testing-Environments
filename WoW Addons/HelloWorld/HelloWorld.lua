@@ -4,7 +4,7 @@ local channel = "SAY"
 SLASH_HELLO_WORLD_ADD1 = "/hwadd"
 SLASH_HELLO_WORLD_ADD2 = "/helloworldadd" -- an alias for /hwadd
 SlashCmdList["HELLO_WORLD_ADD"] = function(msg)
-  local, id, text = msg:match("(%S+)%s+(.+)")
+  local id, text = msg:match("(%S+)%s+(.+)")
   if id and text then
     HelloWorld_Text[id:lower()] = text
   else
