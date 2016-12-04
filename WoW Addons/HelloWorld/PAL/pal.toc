@@ -1,0 +1,5 @@
+## Interface: 70100
+## Title: PAL Guild Control
+## Notes: PAL's Official Guild AddOn
+## SavedVariables: PAL_Text
+pal.lua
